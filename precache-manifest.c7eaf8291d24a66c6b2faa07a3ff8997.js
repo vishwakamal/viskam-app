@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1fcf0ffa0a0a72d52ef4841ccb79a7a",
+    "revision": "e77536e177e55a94c0d49c51e4061dab",
     "url": "/viskam-app/index.html"
   },
   {
-    "revision": "752b1bf13ea264738559",
+    "revision": "d84f1a12d9562e7040f7",
     "url": "/viskam-app/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "dbb42f3e0f11cc9bfb4e",
+    "revision": "e6294842a8cd89d4761a",
     "url": "/viskam-app/static/css/main.0a882f56.chunk.css"
   },
   {
-    "revision": "752b1bf13ea264738559",
-    "url": "/viskam-app/static/js/2.53ceb1f7.chunk.js"
+    "revision": "d84f1a12d9562e7040f7",
+    "url": "/viskam-app/static/js/2.eec49857.chunk.js"
   },
   {
     "revision": "4fdb92f5a0a11be5d79ae606cb253c2b",
-    "url": "/viskam-app/static/js/2.53ceb1f7.chunk.js.LICENSE.txt"
+    "url": "/viskam-app/static/js/2.eec49857.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbb42f3e0f11cc9bfb4e",
-    "url": "/viskam-app/static/js/main.938a68aa.chunk.js"
+    "revision": "e6294842a8cd89d4761a",
+    "url": "/viskam-app/static/js/main.f1b2c7a3.chunk.js"
   },
   {
     "revision": "da6e2be5e72a684517ad",

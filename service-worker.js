@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/viskam-app/precache-manifest.89aa5a2290774dc6b630694103f0c715.js"
+  "/viskam-app/precache-manifest.c7eaf8291d24a66c6b2faa07a3ff8997.js"
 );
 
 self.addEventListener('message', (event) => {
