@@ -3,6 +3,11 @@ import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "./about";
+import { Tips } from "./tips";
+import { Home } from "./home";
+
+import Tracker from "./tracker";
+
 const Styles = styled.div`
   .navbar {
     background-color: #222;
@@ -14,6 +19,9 @@ const Styles = styled.div`
     &:hover {
       color: white;
     }
+  }
+  .navbar-toggler {
+    background-color: grey;
   }
   .navbar-brand {
     font-size: 1.4em;
@@ -29,24 +37,29 @@ const Styles = styled.div`
   }
 `;
 export const NavigationBar = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Styles>
       <Navbar expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/home"}>Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/about">General Info</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/about"}>
+                General Info
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/tracker">Tracker</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/tracker"}>
+                Tracker
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/tips">Tips and Tricks</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/tips"}>
+                Tips and Tricks
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
@@ -56,12 +69,15 @@ export const NavigationBar = () => (
       <Route path="/about">
         <About />
       </Route>
-      {/* <Route path="/topics">
-        <Topics />
+      <Route path="/tips">
+        <Tips />
       </Route>
-      <Route path="/">
+      <Route path="/home">
         <Home />
-      </Route> */}
+      </Route>
+      <Route path="/tracker">
+        <Tracker />
+      </Route>
     </Switch>
   </Router>
 );

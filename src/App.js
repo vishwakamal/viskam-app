@@ -22,7 +22,7 @@ function App() {
                   </a> */}
       </header>
       <React.Fragment>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <NavigationBar />
         </Router>
       </React.Fragment>

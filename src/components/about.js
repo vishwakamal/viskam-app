@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./index.css";
 export const About = () => (
   <React.Fragment>
     <div className="About">

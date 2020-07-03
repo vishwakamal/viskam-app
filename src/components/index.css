@@ -1,0 +1,94 @@
+.About {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h1-title {
+    height: 2%;
+    min-height: 50%;
+    text-align: center;
+    color: rgb(15, 13, 14);
+}
+
+.h2-title {
+    min-width: 50%;
+    margin-top: 5vh;
+    text-align: left;
+    color: rgb(50, 113, 139);
+}
+
+.list {
+    text-align: left;
+}
+
+.tips {
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+/* for statepicker component */
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important;
+}
+
+/* for cards component */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+
+.card {
+    margin: 0 2% !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.815);
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.863);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.932);
+}
+
+@media only screen and (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+}
