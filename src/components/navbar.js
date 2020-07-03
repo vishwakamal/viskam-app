@@ -44,7 +44,7 @@ export const NavigationBar = () => (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
-              <Nav.Link href={process.env.PUBLIC_URL + "/home"}>Home</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/"}>Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href={process.env.PUBLIC_URL + "/about"}>
@@ -72,7 +72,7 @@ export const NavigationBar = () => (
       <Route path="/tips">
         <Tips />
       </Route>
-      <Route path="/home">
+      <Route path="/">
         <Home />
       </Route>
       <Route path="/tracker">

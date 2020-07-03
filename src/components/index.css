@@ -92,3 +92,7 @@ body {
         margin: 2% 0 !important;
     }
 }
+
+.image {
+    align-content: right;
+}
