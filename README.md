@@ -1,6 +1,6 @@
 ## How to access my Project
 
-- My app is deployed in herokuapp and can be accessed here: https://viskam-app.herokuapp.com/
+### My application is deployed in heroku and can be accessed here: https://viskam-app.herokuapp.com/
 
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 2. I am using https://covidtracking.com/api/v1/ api to get data to show in my tracker page.
