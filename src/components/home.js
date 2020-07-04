@@ -40,15 +40,18 @@ export const Home = () => {
 
 export const Item = (props) => {
   return (
-    <Paper>
-      <h2>{props.item.name}</h2>
+    <React.Fragment>
+      <h1>Stay Home Stay Informed</h1>
+      <Paper>
+        <h2>{props.item.name}</h2>
 
-      <img
-        src={props.item.image}
-        height="300px"
-        width="350px"
-        alt={props.item.image}
-      />
-    </Paper>
+        <img
+          src={props.item.image}
+          height="300px"
+          width="350px"
+          alt={props.item.image}
+        />
+      </Paper>
+    </React.Fragment>
   );
 };
