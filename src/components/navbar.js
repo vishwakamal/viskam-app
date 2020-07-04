@@ -72,11 +72,11 @@ export const NavigationBar = () => (
       <Route path="/tips">
         <Tips />
       </Route>
-      <Route path="/">
-        <Home />
-      </Route>
       <Route path="/tracker">
         <Tracker />
+      </Route>
+      <Route exact path="/">
+        <Home />
       </Route>
     </Switch>
   </Router>

@@ -28,7 +28,7 @@ class Tracker extends React.Component {
     const { data } = this.state;
     console.log(data);
     return (
-      <div className="container">
+      <div className="tracker-container ">
         {/* <img className="image" src={coronaImage} alt="COVID-19" /> */}
         <StatePicker handleStateChange={this.handleStateChange} />
         <Cards data={data} />

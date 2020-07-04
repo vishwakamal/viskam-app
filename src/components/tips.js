@@ -20,19 +20,19 @@ export const Tips = () => (
         </ul>
       </div>
       <h2 className="h2-title">Cool Tricks to not become bored</h2>
-      <div class="container">
+      <div class="imgcontainer">
         <div class="container_text">
           <h4>Workout and get strong</h4>
         </div>
         <img class="container_image" src={Workout} />
       </div>
-      <div class="container">
+      <div class="imgcontainer">
         <div class="container_text">
           <h4>Make TikToks</h4>
         </div>
         <img class="container_image" src={TikTok} />
       </div>
-      <div class="container">
+      <div class="imgcontainer">
         <div class="container_text">
           <h4>Become a YouTuber</h4>
         </div>
