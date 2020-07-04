@@ -24,19 +24,19 @@ export const Tips = () => (
         <div class="container_text">
           <h4>Workout and get strong</h4>
         </div>
-        <img class="container_image" src={Workout} />
+        <img class="container_image" src={Workout} alt="workout" />
       </div>
       <div class="imgcontainer">
         <div class="container_text">
           <h4>Make TikToks</h4>
         </div>
-        <img class="container_image" src={TikTok} />
+        <img class="container_image" src={TikTok} alt="tiktok" />
       </div>
       <div class="imgcontainer">
         <div class="container_text">
           <h4>Become a YouTuber</h4>
         </div>
-        <img class="container_image" src={YouTube} />
+        <img class="container_image" src={YouTube} alt="youtube" />
       </div>
     </div>
   </React.Fragment>

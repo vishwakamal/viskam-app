@@ -29,9 +29,12 @@
     margin-bottom: 10px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 
 body {
     background-color: rgb(250, 250, 250);
+    font-family: 'Josefin Sans', cursive;
 }
 
 .tracker-container {
