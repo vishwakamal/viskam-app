@@ -93,6 +93,27 @@ body {
     }
 }
 
-.image {
-    align-content: right;
+
+
+.container {
+    border: 2px solid rgb(50, 113, 139);
+    padding: 20px 20px 20px;
+    max-width: 500px;
+    display: flex;
+}
+
+.container_image {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin: 20px 30px 0 0;
+}
+
+.container_text {
+    display: inline-block;
+    width: 60%;
+
+    @media (max-width: 620px) {
+        width: 100%;
+    }
 }

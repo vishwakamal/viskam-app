@@ -48,7 +48,7 @@ export const NavigationBar = () => (
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href={process.env.PUBLIC_URL + "/about"}>
-                General Info
+                Covid-19
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

@@ -16,29 +16,27 @@ export const Tips = () => (
           <li>Stay home if you can most of the time</li>
           <li>Practice social distancing</li>
           <li>Wash your hands often</li>
-          <li>Cover yourrrr cough</li>
+          <li>Cover your cough</li>
         </ul>
       </div>
-      <div>
-        <div>
-          <div>
-            <img src={Workout} width="400" height="450" />
-          </div>
+      <h2 className="h2-title">Cool Tricks to not become bored</h2>
+      <div class="container">
+        <div class="container_text">
+          <h4>Workout and get strong</h4>
         </div>
+        <img class="container_image" src={Workout} />
       </div>
-      <div>
-        <h2 className="h2-title">Cool Tricks to not become bored</h2>
-        <ul className="list">
-          <li>Workout and get strong</li>
-          <li>Have a Movie Marathon</li>
-          <li>Play video games</li>
-          <li>Make TikToks</li>
-          <li>Listen to podcasts or new music albums/genres</li>
-          <li>
-            Try learning new things such as cooking, becoming a YouTuber, or
-            photo editing
-          </li>
-        </ul>
+      <div class="container">
+        <div class="container_text">
+          <h4>Make TikToks</h4>
+        </div>
+        <img class="container_image" src={TikTok} />
+      </div>
+      <div class="container">
+        <div class="container_text">
+          <h4>Become a YouTuber</h4>
+        </div>
+        <img class="container_image" src={YouTube} />
       </div>
     </div>
   </React.Fragment>
