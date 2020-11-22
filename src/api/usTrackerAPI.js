@@ -1,6 +1,7 @@
 import axios from "axios";
 // axios = require("axios");
-const url = "https://covidtracking.com/api/v1/";
+const url =
+  "https://cors-anywhere.herokuapp.com/https://covidtracking.com/api/v1/";
 
 export const getAllStates = async () => {
   const { data } = await axios.get(`${url}/states/info.json`);
